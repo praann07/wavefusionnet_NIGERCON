@@ -1,0 +1,9 @@
+{
+  "epoch": 100,
+  "val_psnr": 29.679577264331638,
+  "val_ssim": 0.8864933462370009,
+  "test_psnr": 28.788138344092587,
+  "test_ssim": 0.8748114859596444,
+  "num_test_images": 1111,
+  "trainable_params": 9392211
+}

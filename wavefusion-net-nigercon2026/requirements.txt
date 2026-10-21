@@ -1,0 +1,9 @@
+# The notebooks were run on Kaggle's default image, which already provides all of these.
+# Pin exact versions with `pip freeze` in a Kaggle cell if you need a bit-exact environment.
+torch>=2.0
+torchvision>=0.15
+numpy
+pillow
+matplotlib
+tqdm
+torchinfo   # optional: only used to print a model summary

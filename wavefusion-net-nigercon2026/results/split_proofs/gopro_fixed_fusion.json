@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-09-16 09:42:34",
+  "ablation": "fixed_fusion_no_learned_gate",
+  "val_ratio": 0.1,
+  "split_seed": 42,
+  "counts": {
+    "train": 1893,
+    "val": 210,
+    "test": 1111
+  },
+  "sha256": {
+    "train": "7d659adfcd1f92cdee3bf61e0924bd6fda66faac73f7e3dcc2207b0c0ebe7610",
+    "val": "063ab299a04b101665f55b3d9063e6bb945aa5fd27899628f6f5f666d11d8c60",
+    "test": "7018c8b387e956edb1f4949da9a9527eff9daf484895078faceb41edcca06169"
+  },
+  "notes": {
+    "protocol": "best checkpoint selected on VAL-from-TRAIN; same seed/split as full-model and spatial-only runs"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-26 07:13:21",
+  "val_ratio": 0.1,
+  "split_seed": 42,
+  "counts": {
+    "train": 1893,
+    "val": 210,
+    "test": 1111
+  },
+  "sha256": {
+    "train": "7d659adfcd1f92cdee3bf61e0924bd6fda66faac73f7e3dcc2207b0c0ebe7610",
+    "val": "063ab299a04b101665f55b3d9063e6bb945aa5fd27899628f6f5f666d11d8c60",
+    "test": "7018c8b387e956edb1f4949da9a9527eff9daf484895078faceb41edcca06169"
+  },
+  "samples": {
+    "train_first10": [
+      "train/GOPR0372_07_00/blur/000047.png",
+      "train/GOPR0372_07_00/blur/000049.png",
+      "train/GOPR0372_07_00/blur/000050.png",
+      "train/GOPR0372_07_00/blur/000051.png",
+      "train/GOPR0372_07_00/blur/000052.png",
+      "train/GOPR0372_07_00/blur/000053.png",
+      "train/GOPR0372_07_00/blur/000054.png",
+      "train/GOPR0372_07_00/blur/000056.png",
+      "train/GOPR0372_07_00/blur/000058.png",
+      "train/GOPR0372_07_00/blur/000059.png"
+    ],
+    "val_first10": [
+      "train/GOPR0372_07_00/blur/000048.png",
+      "train/GOPR0372_07_00/blur/000055.png",
+      "train/GOPR0372_07_00/blur/000057.png",
+      "train/GOPR0372_07_00/blur/000075.png",
+      "train/GOPR0372_07_00/blur/000076.png",
+      "train/GOPR0372_07_00/blur/000085.png",
+      "train/GOPR0372_07_00/blur/000092.png",
+      "train/GOPR0372_07_00/blur/000094.png",
+      "train/GOPR0372_07_00/blur/000095.png",
+      "train/GOPR0372_07_00/blur/000117.png"
+    ],
+    "test_first10": [
+      "test/GOPR0384_11_00/blur/000001.png",
+      "test/GOPR0384_11_00/blur/000002.png",
+      "test/GOPR0384_11_00/blur/000003.png",
+      "test/GOPR0384_11_00/blur/000004.png",
+      "test/GOPR0384_11_00/blur/000005.png",
+      "test/GOPR0384_11_00/blur/000006.png",
+      "test/GOPR0384_11_00/blur/000007.png",
+      "test/GOPR0384_11_00/blur/000008.png",
+      "test/GOPR0384_11_00/blur/000009.png",
+      "test/GOPR0384_11_00/blur/000010.png"
+    ]
+  },
+  "notes": {
+    "protocol": "best checkpoint selected on VAL-from-TRAIN; TEST used only once at end"
+  }
+}

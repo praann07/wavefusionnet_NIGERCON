@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-25 09:57:19",
+  "val_ratio": 0.1,
+  "split_seed": 42,
+  "counts": {
+    "train": 3383,
+    "val": 375,
+    "test": 980
+  },
+  "sha256": {
+    "train": "af1027140302cc05a36d18aa2ccd984a97205fce7d1ffbb3015155988a1b2cee",
+    "val": "8431800b03e00f8d3bed86a79973783dde92eed06fd18050e82e2bb5b226c791",
+    "test": "2a98ebbf6075c7c2fcfa243485bd938b2de95f6082ff1eea98423116cf8003af"
+  },
+  "samples": {
+    "train_first10": [
+      "train/blur/001_1.png",
+      "train/blur/001_10.png",
+      "train/blur/001_11.png",
+      "train/blur/001_12.png",
+      "train/blur/001_13.png",
+      "train/blur/001_14.png",
+      "train/blur/001_15.png",
+      "train/blur/001_16.png",
+      "train/blur/001_18.png",
+      "train/blur/001_19.png"
+    ],
+    "val_first10": [
+      "train/blur/001_17.png",
+      "train/blur/001_6.png",
+      "train/blur/003_16.png",
+      "train/blur/003_19.png",
+      "train/blur/004_15.png",
+      "train/blur/004_17.png",
+      "train/blur/005_14.png",
+      "train/blur/005_16.png",
+      "train/blur/005_3.png",
+      "train/blur/005_4.png"
+    ],
+    "test_first10": [
+      "test/blur/002_10.png",
+      "test/blur/002_11.png",
+      "test/blur/002_12.png",
+      "test/blur/002_13.png",
+      "test/blur/002_14.png",
+      "test/blur/002_15.png",
+      "test/blur/002_16.png",
+      "test/blur/002_17.png",
+      "test/blur/002_18.png",
+      "test/blur/002_19.png"
+    ]
+  },
+  "notes": {
+    "protocol": "best checkpoint selected on VAL-from-TRAIN; TEST used only once at end"
+  }
+}

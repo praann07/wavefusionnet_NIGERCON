@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-04-23 07:05:45",
+  "val_ratio": 0.1,
+  "split_seed": 42,
+  "counts": {
+    "train": 5727,
+    "val": 636,
+    "test": 1329
+  },
+  "sha256": {
+    "train": "e62b33858f1ba931576bed9556eb0d360d838441f9826c95f604d158732259f9",
+    "val": "34a1110dae60d5833dab5c574b71c5a184defcb6e17dee79a9f409b495369230",
+    "test": "e216a016ecbd87400ecff3120ad470f2a3d48c368e157b3ef19d54ab1077c43f"
+  },
+  "samples": {
+    "train_first10": [
+      "train/blur/100fromGOPR1034.png",
+      "train/blur/100fromGOPR1037.png",
+      "train/blur/100fromGOPR1042.png",
+      "train/blur/100fromGOPR1069.png",
+      "train/blur/100fromGOPR1072.png",
+      "train/blur/100fromGOPR1073.png",
+      "train/blur/100fromGOPR1075.png",
+      "train/blur/100fromGOPR1076.png",
+      "train/blur/100fromGOPR1077.png",
+      "train/blur/100fromGOPR1078.png"
+    ],
+    "val_first10": [
+      "train/blur/100fromGOPR1088.png",
+      "train/blur/101fromGOPR1086.png",
+      "train/blur/101fromGOPR1090.png",
+      "train/blur/102fromGOPR1034.png",
+      "train/blur/102fromGOPR1073.png",
+      "train/blur/102fromGOPR1076.png",
+      "train/blur/103fromGOPR1075.png",
+      "train/blur/103fromGOPR1081.png",
+      "train/blur/103fromGOPR1090.png",
+      "train/blur/104fromGOPR1037.png"
+    ],
+    "test_first10": [
+      "test/blur/100fromGOPR0950.png",
+      "test/blur/100fromGOPR0955.png",
+      "test/blur/100fromGOPR0969.png",
+      "test/blur/100fromGOPR0970.png",
+      "test/blur/100fromGOPR0973.png",
+      "test/blur/100fromGOPR0977.png",
+      "test/blur/101fromGOPR0950.png",
+      "test/blur/101fromGOPR0955.png",
+      "test/blur/101fromGOPR0965.png",
+      "test/blur/101fromGOPR0969.png"
+    ]
+  },
+  "notes": {
+    "protocol": "best checkpoint selected on VAL-from-TRAIN; TEST used only once at end"
+  }
+}

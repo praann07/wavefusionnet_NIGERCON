@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "WaveFusion-Net"
+type: software
+license: MIT
+repository-code: "https://github.com/praann07/wavefusion-net-nigercon2026"
+version: "1.0"
+date-released: "2026-09-26"
+keywords:
+  - image deblurring
+  - wavelet transform
+  - NAFNet
+  - PyTorch
+authors:
+  - given-names: "Som Praneeth Babu"
+    family-names: "Mamidala"
+  - given-names: "Lekshmi Chandrika"
+    family-names: "Reghunath"
+  - given-names: "Agbotiname Lucky"
+    family-names: "Imoize"
+  - given-names: "Claudio"
+    family-names: "Tomazzoli"
+  - given-names: "Cristian"
+    family-names: "Randieri"
+preferred-citation:
+  type: conference-paper
+  title: "Dual-Branch Spatial-Wavelet Fusion for Blind Image Deblurring"
+  collection-title: "IEEE NIGERCON"
+  year: 2026
+  status: in-press
+  authors:
+    - given-names: "Som Praneeth Babu"
+      family-names: "Mamidala"
+    - given-names: "Lekshmi Chandrika"
+      family-names: "Reghunath"
+    - given-names: "Agbotiname Lucky"
+      family-names: "Imoize"
+    - given-names: "Claudio"
+      family-names: "Tomazzoli"
+    - given-names: "Cristian"
+      family-names: "Randieri"
